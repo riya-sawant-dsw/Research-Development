@@ -1,0 +1,25 @@
+>python -m pip install jupyter
+
+>python -m notebook
+
+>mkdir MLFlow
+
+>cd MLFlow
+
+>mlflow server --host 127.0.0.1 --port 5000
+
+>mlflow server --help
+
+>set MLFLOW_TRACKING_URI=http://localhost:5000
+>mlflow models serve -m runs:/<run_id>/model -p 5000
+
+>mlflow server --backend-store-uri file:///C:/Users/Admin/mlruns --default-artifact-root file:///C:/Users/Admin/mlruns --host 127.0.0.1 --port 5000
+>mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:///mlruns.db --default-artifact-root ./mlartifacts --serve-artifacts
+>mlflow server --host 127.0.0.1 --port 5000 --backend-store-uri sqlite:///mlruns.db --default-artifact-root ./mlartifacts --serve-artifacts
+>mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:///mlruns.db --default-artifact-root ./mlruns --artifacts-destination ./mlruns --serve-artifacts
+>mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:///mlruns.db --default-artifact-root ./mlartifacts --artifacts-destination ./mlartifacts --serve-artifacts
+>mlflow server --host 0.0.0.0 --port 5000 --default-artifact-root ./mlartifacts --artifacts-destination ./mlartifacts --serve-artifacts
+
+
+>mlflow models build-docker -m runs:/<run_id>/<artifact_path> -n <image_name> --enable-mlserver
+
