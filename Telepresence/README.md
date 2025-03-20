@@ -490,3 +490,6 @@ Execute the script to interact with all components simultaneously.
    ```
 
 ---
+
+## References
+- [Telepresence Architecture](https://telepresence.io/docs/reference/architecture)
