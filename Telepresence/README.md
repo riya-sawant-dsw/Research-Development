@@ -493,3 +493,5 @@ Execute the script to interact with all components simultaneously.
 
 ## References
 - [Telepresence Architecture](https://telepresence.io/docs/reference/architecture)
+- [Ambassador](https://www.getambassador.io/use-case/productive-local-dev-environment)
+- [Best Kubernetes Local Development tools](https://www.getambassador.io/blog/best-kubernetes-local-development-tools-guide)
