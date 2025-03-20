@@ -1,6 +1,6 @@
 
 
-#  Running an External File with Telepresence in a Minikube Cluster
+#  Running an External File with Telepresence in a Cluster
 
 This document outlines the process of setting up a Minikube Kubernetes cluster, deploying a PostgreSQL database, backend, and frontend components, and using Telepresence to run an external Python script (`external_file.py`) that interacts with all three components simultaneously. The goal is to demonstrate seamless communication and early error detection without deploying the script to the cluster.
 
