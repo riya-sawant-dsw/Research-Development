@@ -17,7 +17,6 @@ This document outlines the process of setting up a Minikube Kubernetes cluster, 
 
 ---
 
-## Setup Instructions
 
 ### Step 1: Install Telepresence on Fedora
 
@@ -38,7 +37,7 @@ Telepresence enables local development by proxying traffic between your machine 
      ```bash
      sudo curl -fL https://github.com/telepresenceio/telepresence/releases/latest/download/telepresence-linux-amd64 -o /usr/local/bin/telepresence
      ```
-   - Note: The command was run twice in your sequence, but once is sufficient.
+
 
 4. **Make Telepresence Executable**:
    ```bash
