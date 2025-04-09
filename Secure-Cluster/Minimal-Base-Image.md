@@ -63,7 +63,7 @@ RUN pip install pyarmor && \
     pyarmor gen app.py
 
 # Stage 2: Runtime (Distroless)
-FROM gcr.io/distroless/static-debian12
+FROM gcr.io/distroless/python3-debian11
 
 WORKDIR /app
 COPY --from=builder /app/dist /app
